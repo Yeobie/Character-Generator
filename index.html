@@ -5,45 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Character Generator</title>
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h2>Let's generate a new character using AI!</h2>
+    <div class="container">
+      <h2>
+        Let's generate a new character using AI! <br />
+        🎨 ✍🏻
+      </h2>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter some keywords on how you'd like your character to be!"
-          autofocus
-          autocomplete="off"
-          class="keywords"
-        />
-        <input type="submit" />
-      </form>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter some keywords on how you'd like your character to be!"
+            autofocus
+            autocomplete="off"
+            class="keywords"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
 
-      <div>
-        <h3>Generated character</h3>
-        <p>character description</p>
-      </div>
-    </main>
-    <footer>
-      This project was coded by
-      <a
-        href="https://github.com/Yeobie"
-        target="_blank"
-        title="Ilaria Vilardi"
-      >
-        Ilaria Vilardi
-      </a>
-      and is
-      <a
-        href="https://github.com/Yeobie/Character-Generator"
-        target="_blank"
-        title="Github"
-        >open-sourced</a
-      >
-      and hosted on Netlify.
-    </footer>
+        <div class="character">
+          <h3>Generated character</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+            no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a
+          href="https://github.com/Yeobie"
+          target="_blank"
+          title="Ilaria Vilardi"
+        >
+          Ilaria Vilardi
+        </a>
+        and is
+        <a
+          href="https://github.com/Yeobie/Character-Generator"
+          target="_blank"
+          title="Github"
+          >open-sourced</a
+        >
+        and hosted on Netlify.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
